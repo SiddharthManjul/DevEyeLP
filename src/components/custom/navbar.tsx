@@ -30,7 +30,7 @@ const Navbar = () => {
     <div className="absolute inset-x-0 mt-8 m-auto flex md:justify-center md:items-center md:mr-0">
         <Image src={DevEyeNew} alt="Logo" width={100} height={100}/>
     </div>
-      <div className="flex justify-end bg-cyan-200">
+      <div className="flex justify-end bg-purple-neon-light">
         {/* <ul className="hidden md:flex md:flex-col h-screen justify-center gap-y-8 =">
           {links.map(({ id, link }) => (
             <li
