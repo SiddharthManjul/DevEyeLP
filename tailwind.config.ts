@@ -27,7 +27,7 @@ const config = {
         grotesk: ["var(--font-grotesk)", ...fontFamily.sans]
       },
       colors: {
-        "purple-neon-light": "#97FEED",
+        "aqua-neon-light": "#97FEED",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
