@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import DevEyeNew from "../../../public/DevEyeNew.png";
+import DevEyeLogo from "../../../public/DevEyeLogo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FaBarsProgress } from "react-icons/fa6";
 
@@ -27,8 +27,8 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="absolute inset-x-0 mt-8 m-auto flex md:justify-center md:items-center md:mr-0">
-        <Image src={DevEyeNew} alt="Logo" width={100} height={100}/>
+    <div className="absolute inset-x-0 mt-8 left-8 md:left-0 m-auto flex md:justify-center md:items-center">
+        <Image src={DevEyeLogo} alt="Logo" width={125} height={125}/>
     </div>
       <div className="flex justify-end">
         {/* <ul className="hidden md:flex md:flex-col h-screen justify-center gap-y-8 =">
